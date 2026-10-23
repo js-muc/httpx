@@ -118,7 +118,7 @@ Often Web API responses will be encoded as JSON.
 ```pycon
 >>> r = httpx.get('https://api.github.com/events')
 >>> r.json()
-[{u'repository': {u'open_issues': 0, u'url': 'https://github.com/...' ...  }}]
+[{'repository': {'open_issues': 0, 'url': 'https://github.com/...' ...  }}]
 ```
 
 ## Custom Headers
